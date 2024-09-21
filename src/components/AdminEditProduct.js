@@ -67,8 +67,7 @@ const AdminEditProduct = ({
   }
 
 
-  {/**upload product */}
-  const handleSubmit = async(e) =>{
+    const handleSubmit = async(e) =>{
     e.preventDefault()
     
     const response = await fetch(SummaryApi.updateProduct.url,{
